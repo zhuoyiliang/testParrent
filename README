@@ -1,1 +1,6 @@
-5
+1.git clone parent_ulr // 或者 --recurse-submodules
+2.git submodule init
+3.git submodule update --remote // 拿的是新的main而不是parent的 @branch_name
+4.git add .
+5.git commit -m ""
+6.git push origin main
